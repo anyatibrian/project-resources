@@ -1,0 +1,67 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="telephone=no" name="format-detection">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style:italic;">
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td style="width: 500px;">
+                    </td>
+                    <td style="
+                    padding-top: 10px; 
+                    padding-bottom: 10px;">
+                        <img src="https://i.ibb.co/2NQ8BK1/07.jpg" alt="office_space" width="500">
+                    </td>
+                    <td style="width: 500px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px;">
+
+                    </td>
+                    <td>
+                        <h4>Hi {{mailInfo.username}}</h4>
+                        <p style="text-align: left;">
+                            {{mailInfo.messageBody}}
+                        </p>
+                        <button style="border-radius: 50px;
+                            background-color:#224251; 
+                            border: 1px solid #224251;
+                            color:white;padding-left: 40px;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            margin-bottom: 20px; padding-right: 40px;"> <a href="{{mailInfo.protocol}}://{{mailInfo.host}}/api/v1/users/{{mailInfo.textOne}}/{{mailInfo.token}}/{{mailInfo.textTwo}}" style="text-decoration: none; color:white;">{{mailInfo.activate}}</a> </button>
+                    </td>
+                    <td style="width: 500px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 500px;"></td>
+                    <td style="background:#224251;">
+                        <p style="color: white; font-style: italic; text-align: center;">follow Us on: </p>
+                        <p style="text-align: center;">
+                            <a><img src="https://i.ibb.co/4dRZBr4/icons8-facebook-f-64.png" alt="face_book" width="20px"
+                                    height="20px"></a>
+                            <a><img src="https://i.ibb.co/f03mmC4/icons8-twitter-squared-48.png" alt="icons8-twitter-squared-48"
+                                    height="20px" width="20px"></a>
+                            <a><img src="https://i.ibb.co/k54zD5n/icons8-pinterest-48.png" alt="icons8-pinterest-48" width="20px" height="20px"></a>
+                        </p>
+                    </td>
+                    <td style="width: 500px;"></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+</body>
+</html>
