@@ -58,7 +58,7 @@
       "@types/node": "^8.0.29",
       "@types/passport": "^1.0.3",
       "@types/passport-facebook-token": "^0.4.34",
-      "bcrypt": "^4.0.1",
+      "bcrypt": "^5.0.0",
       "custom-env": "^2.0.1",
       "dotenv": "^8.2.0",
       "husky": "^4.2.3",
